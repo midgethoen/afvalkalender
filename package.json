@@ -1,0 +1,30 @@
+{
+  "name": "afvalkalender",
+  "version": "1.0.0",
+  "description": "Convert irado-afvalkalender into a actual calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/midgethoen/afvalkalender.git"
+  },
+  "keywords": [
+    "irado",
+    "calendar",
+    "afvalkalender"
+  ],
+  "author": "Midge 't Hoen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midgethoen/afvalkalender/issues"
+  },
+  "homepage": "https://github.com/midgethoen/afvalkalender#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "cheerio": "^0.19.0",
+    "express": "^4.13.3",
+    "request": "^2.60.0"
+  }
+}
